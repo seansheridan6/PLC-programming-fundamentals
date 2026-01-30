@@ -1,3 +1,8 @@
+//I wanted to sort a list alphabetically as its required as an option in another assignment im doing right now, the code you see essentialy
+//uses as for loop to go through each character of the English alphabet sending them one by one to the filterSongsArrayByLetter method, this method goes through the static songs array and checks each song in it one by one to see if it starts with
+//the letter chosenCharacterFromAlphabet, if it does its pushed into the songsPrinterByCharacter array list and printed, this is repeated, the arraylist is then cleared and the process starts again, eventually every song in the songs array is printed alphabetically.
+
+
 import java.util.ArrayList;
 
 public class BasicSongSorter {
